@@ -138,10 +138,9 @@ const MyDocument = ({ text }) => (
     <Page size="A4" style={styles.page}>
       <View style={styles.row}>
         <View style={styles.leftColumn}>
-          <Text>Code Concept</Text>
-          <Text>Cs 30 817</Text>
-          <Text>11 rue du clos courtel</Text>
-          <Text>35700 rennes</Text>
+          <Text>Nom de l'entreprise</Text>
+          <Text>56 rue de la ville</Text>
+          <Text>74500 MAVILLE</Text>
         </View>
         <View style={styles.rightColumn}>
           <Text style={styles.title}>DEVIS</Text>

@@ -7,6 +7,7 @@ const Item = (props) => {
                 <div className="row">
                     <div className="col">
                         <input
+                            placeholder="Description"
                             type="text"
                             className="formControl"
                             name="description"
@@ -16,6 +17,7 @@ const Item = (props) => {
                     </div>
                     <div className="col">
                         <input
+                            placeholder="Quantité"
                             type="number"
                             className="formControl"
                             name="quantité"
@@ -25,6 +27,7 @@ const Item = (props) => {
                     </div>
                     <div className="col">
                         <input
+                            placeholder="Taxe"
                             type="text"
                             className="formControl"
                             name="taxe"
@@ -34,6 +37,7 @@ const Item = (props) => {
                     </div>
                     <div className="col">
                         <input
+                            placeholder="Total"
                             type="text"
                             className="formControl"
                             name="amount"
